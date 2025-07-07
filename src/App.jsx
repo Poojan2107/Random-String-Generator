@@ -27,7 +27,7 @@ function App() {
   }, [length]);
 
   useEffect(() => {
-    setRandomString(generate());
+    setRandomString(generate());  
     setCopied(false);
   }, [length, generate]);
 
